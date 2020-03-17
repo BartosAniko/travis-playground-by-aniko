@@ -39,4 +39,3 @@ script:
 - ./example_test
 - cd ..
 - make coverage
-

@@ -19,12 +19,12 @@ matrix:
             - llvm-toolchain-precise-6.0
           packages:
             - clang-6.0
-          env: COMPILER=clang-6.0
+          env: COMPILER=clang++-6.0
 
 notification:
   email: false
 
-befor_install:
+before_install:
 - sudo apt-get update -qq
 
 install:

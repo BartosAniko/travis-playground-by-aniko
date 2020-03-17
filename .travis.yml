@@ -9,7 +9,7 @@ matrix:
             - ubuntu-toolchain-r-test
           packages:
             - g++-7
-          env:
+      env:
             - MATRIX_EVAL="CC=gcc-7 && CXX=g++-7"
     - os: linux
       addons:
@@ -19,7 +19,8 @@ matrix:
             - llvm-toolchain-precise-6.0
           packages:
             - clang-6.0
-          env: COMPILER=clang++-6.0
+      env:
+            - MATRIX_EVAL="CC=clang-6.0 && CXX=clang++-6.0"
 
 notifications:
   email: false

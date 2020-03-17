@@ -21,7 +21,7 @@ matrix:
             - clang-6.0
           env: COMPILER=clang++-6.0
 
-notification:
+notifications:
   email: false
 
 before_install:

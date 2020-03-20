@@ -14,6 +14,7 @@ matrix:
       env:
             - MATRIX_EVAL="CC=gcc && CXX=g++"
     - os: linux
+      dist: bionic
       addons:
         apt:
           sources:

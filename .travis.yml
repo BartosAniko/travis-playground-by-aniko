@@ -10,9 +10,9 @@ matrix:
           sources:
             - ubuntu-toolchain-r-test
           packages:
-            - g++-7.4
+            - g++
       env:
-            - MATRIX_EVAL=g++-7.4
+            - MATRIX_EVAL=g++
     - os: linux
       dist: bionic
       addons:

@@ -10,9 +10,9 @@ matrix:
           sources:
             - ubuntu-toolchain-r-test
           packages:
-            - g++
+            - g++-7.4
       env:
-            - MATRIX_EVAL=CXX=g++
+            - MATRIX_EVAL=g++-7.4
     - os: linux
       dist: bionic
       addons:
@@ -43,5 +43,4 @@ script:
 - cd ../test
 - ./example_test
 - cd ..
-- make coverage
  

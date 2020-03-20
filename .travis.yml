@@ -37,7 +37,7 @@ install:
 script:
 - cppcheck --quiet --error-exitcode=1 .
 - mkdir build && cd build
-- cmake -DCMAKE_CXX_COMPILER=$COMPILER -DCMAKE_BUILD_TYPE=Coverage .. && make -j4
+- cmake -DCMAKE_CXX_COMPILER=$MATRIX_EVAL -DCMAKE_BUILD_TYPE=Coverage .. && make -j4
 - cd src
 - ./travis_test
 - cd ../test

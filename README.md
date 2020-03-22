@@ -1,5 +1,7 @@
 # travis_playground_homework
 
+[![Build Status](https://travis-ci.com/BartosAniko/travis-playground-by-aniko.svg?branch=master)](https://travis-ci.com/github/BartosAniko/travis-playground-by-aniko)
+
 This is my homework for Opswat Academy.
 Yeay \o/
 
